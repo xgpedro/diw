@@ -1,0 +1,296 @@
+body{
+    margin:0;
+
+}
+
+#fondo1{
+    z-index: -200;
+    width: 140%;
+    margin-left: -15rem;
+    height: 130%;
+    position: fixed;
+}
+
+nav{
+    background-color: #D4A373;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    height: 7rem;
+    opacity: 0.98;
+    z-index: 10000;
+    
+}
+
+#logo{
+    height: 6rem;
+    width: 8rem;
+    float: left;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+#menulinks{
+    text-decoration: none;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+#info{
+    width: 33%;
+    height: 70%;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+
+
+#infotext{
+    font-size: 1rem;
+    
+}
+
+#pie{
+    height: 5rem;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+#compra{
+    margin-top: -200rem
+}
+
+#infotext, #hor, #num{
+    margin: auto;
+    width: 100%;
+}
+
+a:visited{
+    color: white
+}
+
+
+#num{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+
+}
+
+#iconosmenu{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+#iconosredes{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: white;
+
+}
+
+i:hover{
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+#d1{
+    margin-top: 7rem;
+    border: 1px solid black;
+    height: 20rem;
+    background-image: url("fondo2.jpg");
+    background-size: cover;
+
+}
+
+
+h3{
+    font-family: 'Shrikhand', sans-serif;
+    font-style: italic;
+    color:rgb(224, 224, 224) ;
+                                
+}
+
+h1{
+    margin-top: 4rem;
+    font-weight: bold;
+    font-family: 'Shrikhand', sans-serif;
+    color: #ffd6ad; 
+}
+
+
+h4{ 
+    font-weight: bold;
+    font-size: 1.2rem;  
+    font-family:'Courier New', Courier, monospace
+}
+
+header{
+    text-align: center;
+}
+
+#minis{
+    padding: 4%;
+}
+
+#minititulo{
+    width: 8rem;
+    border: 1px solid #D4A373;
+    height: -10rem;
+}
+
+#masa{
+    border-radius: 3rem;
+    height: 8rem;
+    width: 9rem;
+    background-color:bisque;
+}
+
+p{
+    font-family: 'Shrikhand', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 9rem;
+    text-align: center;
+}
+
+#d2{
+    padding: 3rem;
+    border: 1px solid black;
+    width: 10rem;
+    
+    
+}
+
+#d3{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#d4{
+    padding: 3rem;   
+   
+}
+
+
+#links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    column-gap: 6rem;
+}
+
+#iconos{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    column-gap: 2rem;
+}
+
+#user{
+    height: 4rem;
+    background-color:white;
+}
+
+#users{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#minis2{
+    padding: 3%;
+    
+}
+
+#d5{
+    border: 1px solid black;
+    width: 40rem;
+    margin: auto;
+    display: in ;
+}
+
+table{
+    margin: auto;
+    border-spacing: 6rem;
+}
+
+#mostrar{
+    background-color: #D4A373;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid wheat;
+    margin: 2rem
+}
+
+#mostrar:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+td{
+    width: 8rem;
+    border: 2px dotted black;
+    
+}
+
+#like{
+    color:rgb(155, 0, 0)
+}
+
+h5{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#piedepagina{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    color: white;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#horario{
+    width: 33%;
+    margin: auto;
+    height: 70%;
+    
+}
+
+#redes{
+    width: 33%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 10;
+}
+
