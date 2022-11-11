@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos4.css">
+    <script src="https://kit.fontawesome.com/9ac8f1da69.js" crossorigin="anonymous"></script>
+    <title>Panadería Pedrín</title>
+</head>
+<body>
+    <img id="fondo1" src="fondo1.jpg">
+
+    <nav>
+        <img id="logo" src="logo1.png">
+
+        <div id="menu">
+            <div id="links">
+                <a href="index.html" id="menulinks"> Inicio </a>    
+                <a href="Productos.html" id="menulinks"> Productos </a>
+                <a href="pedidos.html" id="menulinks"> Pedidos Especiales </a>
+            </div>
+            <div id="iconos">
+                <button id="carritoicono">
+                    <i id="iconosmenu" class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <div id="compra">
+                        <p id="micarrito"> Mi carrito </p> <i class="fa-solid fa-xmark" id="x"></i>
+                        <hr id="hrcarrito">
+                            <img id ="panes1" src="productos/2.jpg">
+                            <div id="imgcarrito">
+                            <p id="primeracompra"> Pan Blanco </p>
+                            <p id="unidadesprimera"> Unidades 2</p>
+                            <p id="precioprimera"> 1,38€ </p>  <i class="fa-solid fa-xmark" id="x1"></i>
+                            </div>
+                        <hr id="hrcarrito1">
+                            <img id ="panes1" src="productos/3.jpg">
+                            <div id="imgcarrito">
+                                <p id="primeracompra"> Bollos de mantequilla </p>
+                                <p id="unidadesprimera"> Unidades 1</p>
+                                <p id="precioprimera"> 2€ </p>  <i class="fa-solid fa-xmark" id="x1"></i>
+                            </div>
+                        <hr id="hrcarrito1">
+                            <img id ="panes1" src="productos/7.jpg">
+                            <div id="imgcarrito">
+                                <p id="primeracompra"> Napolitana </p>
+                                <p id="unidadesprimera"> Unidades 4</p>
+                                <p id="precioprimera"> 8€ </p>  <i class="fa-solid fa-xmark" id="x1"></i>
+                            </div>
+                        <hr id="hrcarrito1">
+                        <div id="hrcarrito"></div>
+                        <p id="unidades"> Unidades</p> <p id="unidades2"> 7  </p>
+                        <p id="total">TOTAL</p> <p id="dinerototal">11,38€</p>
+                        <div id="cestaboton">
+                        <a href="carritocompra.html"><input type="button" value="Ver artículos en tu cesta" id="cestaboton1" ></a>
+                        </div>
+                    </div>
+                    <i id="iconouser" class="fa-solid fa-user"></i>
+        </div>    
+    </nav>
+    <header>
+
+    </header>
+    <form>
+        <fieldset id="formulario">
+            <legend> Escribe tu pedido especial 😄​</legend>
+            <label> Descripción: </label>
+            <textarea placeholder="Mi pedido especial..." rows="10" cols="30"></textarea>
+
+            <label> Alérgenos a tener en cuenta: </label>
+            <section>
+                <select>
+                <option value="Mantequilla">Mantequilla</option>
+                <option value="Trigo">Trigo</option>
+                <option value="Harina">Harina</option>
+                <option value="Trigo">Trigo</option>
+                <option value="Chocolate">Chocolate</option>
+                </select>
+            </section>
+
+            <label> ¿Cúantos productos quieres? </label>
+            <input type="number" max="50" min="1">
+
+            <label> Fecha de entrega: </label>
+            <input type="date">
+
+            <label> Horario de entrega: </label>
+            <input type="datetime-local">
+
+            <button id="añadiralcarrito">Añadir al carrito</button>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

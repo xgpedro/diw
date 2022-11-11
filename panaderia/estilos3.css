@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+}
+
+#fondo1{
+    z-index: -200;
+    width: 160%;
+    margin-left: -30rem;
+    height: 170%;
+    position: fixed;
+    margin-top: -3rem
+}
+
+nav{
+    background-color: #D4A373;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    height: 7rem;
+    opacity: 0.98;
+    z-index: 10000;
+    
+}
+
+#logo{
+    height: 6rem;
+    width: 8rem;
+    float: left;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+
+}
+
+#links{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    right: 8rem;
+    width: 100%;
+    column-gap: 6rem;
+}
+
+#menulinks{
+    text-decoration: none;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+#iconos{
+    position: fixed;
+    left: 60rem;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    column-gap: 2rem;
+}
+
+#carritoicono:focus + #compra{
+    display: block;
+
+  }
+
+#carritoicono{
+    background-color: #D4A373;
+    height: 1.5rem;
+    margin-top: -0.1rem;
+    border: none;
+    color: white;
+    
+}
+
+#iconosmenu, #iconouser{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+
+}
+
+#compra {
+    height: 10%;
+    width: 22rem;
+    background-color: white;
+    margin-top: 40vw;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    display:none
+}
+
+#micarrito{
+    color: black;
+    font-size: x-large;
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    float: left;
+    font-weight: bold;
+}
+
+#x{
+    color: black;
+    float: right;
+    margin-top: 1.6rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#hr1{
+    margin-left: 4vw;
+    width: 80%;
+    border: 1px dotted gray;
+}
+
+#hrcarrito{
+    border: 1px solid gray;
+    clear: both;
+    margin: 3rem;
+    margin-left: -0.1rem;
+    width: 100%;
+
+}
+
+#panes1{
+    height: 4rem;
+    width: 8rem;
+    border-radius: 2rem;
+    padding: 0.8vw;
+}
+
+#imgcarrito{
+    display: block;
+    float: right;
+    margin-right: 3vw;
+    height: 1rem;
+    width: 8rem;
+    margin-top: -1vw;
+}
+
+#primeracompra{
+    color: rgb(151, 150, 150);
+    width: 100%;
+}
+
+#unidadesprimera{
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+}
+
+#precioprimera{
+    color: black;
+    font-weight: bold;
+}
+
+#hrcarrito1{
+    margin: auto;
+    width: 10rem;
+
+
+    
+}
+
+#unidades{
+    color: black;
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: bold;
+}
+
+#unidades2{
+    color: black;
+    float: right;
+    margin-top: -3vw;
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: bold;
+}
+
+#total{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#dinerototal{
+    color:black;
+    font-weight: bold;
+    float: right;
+    margin-top: -3vw;
+    font-size: 1.5rem;
+    height: 0;
+}
+
+#subtotaldinero{
+    float: right;
+    color: black;
+    margin-top: -2vw;
+    font-weight: bold;
+}
+
+
+#cestaboton{
+    text-align: center;
+}
+
+#resumen{
+    font-size: large;
+    font-weight: bold;
+    color: gray;
+}
+
+#subtotal{
+    color: gray;
+}
+
+#finalizar1{
+    text-align: center;
+}
+
+#finalizar{
+    font-size: large;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: #D4A373;
+    color:white;
+    border:none
+}
+
+#finalizar:hover{
+    background-color: black;
+    cursor: pointer;
+
+}
+
+#cestaboton1{
+    font-size: x-large;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    width: 20rem;
+}
+
+#cestaboton1:hover{
+    cursor: pointer;
+    background-color:  #D4A373;
+    border: 2px solid #D4A373;
+
+}
+
+#x1{
+    color: gray;
+    float: right;
+    margin-top: -2rem;
+    font-size: 1.2rem;
+}
+
+#compranumero1{
+    display: block;
+    background-color: white;
+    width: 50rem;
+    padding: 1vw;
+    margin: 2vw;
+    clear: both;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#pagos{
+    float: right;
+    background-color: white;
+    width: 30vw;
+    margin-top: -20vw;
+    position: fixed;
+    margin-left: 65vw;
+    padding: 1vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+#papeleraysignos{
+    float: right;
+    display: flex;
+    margin-top: -3rem;
+    column-gap: 1rem;
+    margin-right: 2rem;
+}
+
+#papelera{
+    background-color: white;
+    border:  2px solid gray;
+    height: 2rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.5rem;
+}
+
+#masomenos{
+    background-color: white;
+    border: 2px solid gray;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    margin-top: -0.5rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.4rem;
+}
+
+#panes2{
+    width: 12rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+#micestaarticulos{
+    padding: 1rem;
+    margin-left: 15rem;
+    margin-top: -12rem;
+}
+
+#panblanco{
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+}
+
+#preciopanblanco{
+    color:red;
+    font-weight: bold;
+}
+
+#recibelo{
+    color: green
+}
+
+#sd{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+#garantia{
+    padding: 0.5rem;
+    font-weight: bold;
+}
